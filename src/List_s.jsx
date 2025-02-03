@@ -22,7 +22,6 @@ export default function List_s({...props}) {
         setClick(true)
     }
 
-    console.log(props);
     
 
     let handleClose = function(data){
