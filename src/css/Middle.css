@@ -1,0 +1,60 @@
+.all{
+    position: relative;
+    margin-left: 125px;
+    height: auto;
+    width: 80%;
+    background-color: #141414;
+    z-index: 100;
+}
+
+.input_field{
+    display: flex;
+}
+
+.finder{
+    margin-top: 70px;
+    margin-left: 175px;
+    color: #fff;
+    height: 40px;
+    width: 65%;
+    background-color: #1f1f1f;
+    outline: none;
+    border: 1px solid #1f1f1f;
+    padding-left: 15px;
+}
+
+.finder::-moz-focus-inner{
+    padding-left: 15px;
+}
+
+.imgbut {
+    padding-right: 15px;
+    width: 30px; 
+    height: 30px;
+    filter: brightness(0.8); 
+    transition: filter 0.3s ease;
+}
+
+.button_img:hover .imgbut {
+    filter: brightness(1); 
+}
+
+.button_img{
+    margin-top: 70px;
+    height: 41.6px;
+    width: 40px;
+    background-color: #1f1f1f;
+    border: none;
+    cursor: pointer;
+    }
+
+
+.topic_h{
+    margin-top: 100px;
+    margin-left: 30vw;
+    font-size: 35px;
+    color: rgb(185, 184, 184);
+    font-family: "Marck Script", serif;
+    font-weight: 500;
+    font-style: normal;
+}

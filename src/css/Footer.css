@@ -1,0 +1,8 @@
+.footer{
+    height: 6rem;
+    width: 80%;
+    z-index: 1000;
+    background-color: #292c33;
+    margin-left: 125px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,15 @@
+.mainB{
+    font-size: 16px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 25px;
+    height: 35px;
+    width: 90px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.mainB:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}

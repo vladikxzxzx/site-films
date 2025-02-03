@@ -1,0 +1,38 @@
+.top_list{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.num_list{
+    color: white;
+    font-family: "Marck Script", serif;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+.more_info{
+    margin-top: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.more_info:hover{
+    color: goldenrod;
+    transition-duration: 0.4s;
+}
+
+.film_field{
+    margin-left: 7rem;
+    position: relative;
+}
+
+.image_film{
+    margin-top: 55px;
+}
+
+.describe{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
