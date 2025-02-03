@@ -8,7 +8,7 @@ function App() {
 
   return (
     
-    <BrowserRouter>
+    <BrowserRouter basename="/site-films">
         <Routes>
           <Route path='/serials' element={<Serials/>}/>
           <Route path='/films' element={<Films/>}/>
